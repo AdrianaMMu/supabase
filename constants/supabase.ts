@@ -1,0 +1,4 @@
+
+export const supaUrl = 'https://achiltxlgrmnmsvqkriz.supabase.co';
+
+export const anonKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImFjaGlsdHhsZ3Jtbm1zdnFrcml6Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTEzNTM2MzIsImV4cCI6MjA2NjkyOTYzMn0.vleXxDYG5nEOJPKyzEIsGfvnSfiMq1JrOKHCqSAcIbY';

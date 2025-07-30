@@ -1,0 +1,45 @@
+{
+  "expo": {
+    "name": "VEF",
+    "slug": "supabase",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/logo_VEF.png",
+    "scheme": "supabase",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/images/logo_VEF.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#fff5e9"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/logo_VEF.png",
+        "backgroundColor": "#fff5e9"
+      },
+      "edgeToEdgeEnabled": true
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/logo_VEF.png"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-font"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "a9d3c425-33b7-4ffa-8c1b-6dee05096d80"
+      }
+    }
+  }
+}

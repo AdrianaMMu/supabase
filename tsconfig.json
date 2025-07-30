@@ -1,0 +1,32 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true,
+
+    // define o diretório base para o paths funcionar
+    "baseUrl": ".",
+
+    // resolve imports com @/
+    "paths": {
+      "@/*": ["./*"]
+    },
+
+    // aqui indicamos onde o TS deve buscar declarações de tipo
+    "typeRoots": [
+      "src/@types",
+      "node_modules/@types"
+    ]
+  },
+  "include": [
+    // seu código
+    "**/*.ts",
+    "**/*.tsx",
+
+    // tipos gerados pelo Expo
+    ".expo/types/**/*.ts",
+    "expo-env.d.ts",
+
+    // pasta com declarações customizadas
+    "src/@types"
+  ]
+}
