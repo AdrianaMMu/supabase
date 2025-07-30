@@ -35,12 +35,14 @@ O **Vacay em Família** é uma aplicação que ajuda famílias a planearem viage
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/seu-usuario/vacay-em-familia.git
-   cd vacay-em-familia
+   git clone https://github.com/AdrianaMMu/supabase
+   cd supabase
 
 npm install
 
-npx expo start --tunnel
+npx expo start 
+
+2.Download do App Expo Go no telemóvel para interagir com o QR Code
 
 Estrutura de Pastas:
 src/
